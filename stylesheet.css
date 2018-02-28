@@ -1,0 +1,161 @@
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="iconicstroke-"]:before {
+  font-family: 'iconicstroke', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Pragati Narrow', sans-serif;   
+}
+
+.container{
+    max-width: 1024px;
+    border: 1px solid grey;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #ff751a; 
+}
+
+header {
+    width: 100%;
+    height: 12%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+}
+nav {
+    order: 0;
+    width: 15%;
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    height: 88%;
+    order: 1;
+    border-top: 5px solid black;
+    margin: 0 auto;
+    display: block;
+}
+
+.logo {
+    width: 10%;
+    text-align: left;
+    margin-left: 18%;
+    margin-top: 20px;
+}
+
+.name {
+    width: 70%;
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.logo-image {
+    width: 100%;
+}
+
+.full-name {
+    margin-bottom: 0;
+}
+
+.role {
+    margin-top: 0;
+}
+
+.button {
+    display: none;
+}
+
+.navigation {
+    color: black;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    width:70%;
+    list-style: none;
+    
+}
+
+a {
+    color: black;
+    margin-left: 0px;
+}
+
+.main-center {
+    margin-top: 15px;
+    width: 100%;
+    height: 55%;
+    display: block;
+}
+
+.main-picture {
+    width: 100%;
+    height: 100%;
+}
+
+.about-me {
+    border: 1px solid black;
+    background-color: rgba(245,245,220,0.4);
+}
+
+.about {
+    padding: 10px;
+}
+
+.featured {
+    text-align: left;
+    height: 8%;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: black;
+}
+
+.portofolio-sites {
+    display: flex;
+    height: 30%;
+}
+
+.portofolio {
+    width: 33%;
+    display: inline-block;
+    margin: auto;
+}
+
+.site-images {
+    width: 90%;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 3px black;
+    -webkit-box-shadow: 2px 2px 3px black;
+    -moz-box-shadow: 2px 2px 3px black;
+    height: 129px;
+}

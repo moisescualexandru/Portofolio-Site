@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alex's Portofolio</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <a href="#" class="iconicstroke-list button"></a>
+                <div class="logo">
+                    <img class="logo-image" src="Images/Logo1.png" alt="Logo image">
+                </div>
+                <div class="name">
+                    <h2 class="full-name">ALEXANDRU MOISESCU</h2>
+                    <h4 class="role">FRONT-END DEVELOPER</h4>
+                </div>
+
+            </header>
+
+            <nav class="close">
+                <ul class="navigation-list">
+                    <li class="navigation">
+                        <a href="index.html" class="iconicstroke-home"><br/>HOME</a>
+                    </li>
+                    <li class="navigation">
+                        <a href="about.html" class="entypo-vcard"><br/>ABOUT ME</a>
+                    </li>
+                    <li class="navigation">
+                        <a href="https://github.com/moisescualexandru" class="zocial-github" target="_blank"><br/>FOLLOW ME ON GITHUB</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="main-center">
+                    <img class ="main-picture" src="Images/digital-marketing.jpg" alt="The main picture of the site (cyber dev)">
+                </div>
+                <h1 class="featured">Featured Work</h1>
+                <div class="portofolio-sites">
+                    <div class="portofolio">
+                        <a class="featured-button" href="https://github.com/moisescualexandru/Pixel-Art-Maker" target="_blank">
+                            <img class ="site-images" src="Images/Pixel-art-maker.png" alt="Portofolio site named Pixel Art Maker">
+                            <h3>Pixel-Art-Maker</h3>
+                        </a>
+                    </div>
+                    <div class="portofolio">
+                        <a class="featured-button" href="https://github.com/moisescualexandru/FEDN-Animal-Trading-Card" target="_blank">
+                            <img class ="site-images" src="Images/FEND-Animal-trading-card.png" alt="Portofolio site named Animal trading card">
+                            <h3>Animal Trading Card</h3>
+                        </a>
+                    </div>
+                    <div class="portofolio">
+                        <a class="featured-button" href="https://github.com/moisescualexandru/The-Bucharest-TImes" target="_blank">
+                            <img class ="site-images" src="Images/The-Bucharest-Times.png" alt="Portofolio site named The Bucharest Times">
+                            <h3>The Bucharest Times</h3>
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script>
+        $(".button").click(function(){
+            if($("nav").hasClass("close")) {
+                $("nav").addClass("open");
+                $("nav").removeClass("close")
+            } else {
+                $("nav").removeClass("open");
+                $("nav").addClass("close");
+            }
+        })
+        $("main").click(function(){
+            $("nav").removeClass("open");
+            $("nav").addClass("close");
+        })
+        </script>
+    </body>
+</html>

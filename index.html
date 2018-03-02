@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Alex's Portofolio</title>
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="CSS/stylesheet.css">
+        <link rel="stylesheet" href="CSS/responsive.css">
         <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
@@ -66,20 +66,6 @@
                 </div>
             </main>
         </div>
-        <script>
-        $(".button").click(function(){
-            if($("nav").hasClass("close")) {
-                $("nav").addClass("open");
-                $("nav").removeClass("close")
-            } else {
-                $("nav").removeClass("open");
-                $("nav").addClass("close");
-            }
-        })
-        $("main").click(function(){
-            $("nav").removeClass("open");
-            $("nav").addClass("close");
-        })
-        </script>
+        <script src="JS/script.js"></script>
     </body>
 </html>

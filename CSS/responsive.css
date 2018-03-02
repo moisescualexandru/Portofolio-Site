@@ -41,7 +41,6 @@
     }
     
     .site-images {
-/*        width: 150px;*/
         height: 100px;
     }
     
@@ -80,6 +79,11 @@
         transition: transform 0.3s ease;
         -webkit-transition: transform 0.3s ease;
         -moz-transition: transform 0.3s ease;
+    }
+    
+    .navigation-list {
+        padding: 0;
+        text-align: center;
     }
     
     a.iconicstroke-list, .logo, .name {
@@ -128,8 +132,9 @@
     }
     
     .navigation {
-        font-size: 1em;
-        border-bottom: 1px solid black;
+        font-size: 1.4em;
+        text-align: center;
+        margin: auto;
     }
     
     .portofolio {
@@ -184,7 +189,7 @@
     
     .site-images {
         width: 80%;
-        height: 100%;
+        height: 200px;
     }
     
     h3 {
